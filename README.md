@@ -21,4 +21,5 @@ yarn add @slack/rtm-api
 yarn add @slack/web-api
 
 
+you can change the package.json file start porint from app.js in src folder instead of index.js
 
