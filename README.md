@@ -20,6 +20,27 @@ yarn add esm
 yarn add @slack/rtm-api
 yarn add @slack/web-api
 
+you can create a src folder and put all js files in there and change your start point in package.json to src folder instead of the default option which is index.js
 
-you can change the package.json file start porint from app.js in src folder instead of index.js
+here is how the code in your package.json file should look like in that case;
+
+
+
+{
+  "name": "simple-slack-bot",
+  "version": "0.0.0",
+  "description": "A simple slack bot",
+  "main": "src",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "author": "Mo",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/rtm-api": "^6.0.0",
+    "@slack/web-api": "^6.3.0",
+    "esm": "^3.2.25"
+  }
+}
 
