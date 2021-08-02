@@ -25,7 +25,7 @@ you can create a src folder and put all js files in there and change your start 
 here is how the code in your package.json file should look like in that case;
 
 
-
+```javascript
 {
   "name": "simple-slack-bot",
   "version": "0.0.0",
@@ -44,3 +44,4 @@ here is how the code in your package.json file should look like in that case;
   }
 }
 
+```
