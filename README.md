@@ -45,3 +45,5 @@ here is how the code in your package.json file should look like in that case;
 }
 
 ```
+
+then finally you can create a bot spam channel and invite the bot there to test it
